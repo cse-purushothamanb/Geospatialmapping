@@ -1,6 +1,6 @@
 # Project-1
 **Representing Road, Buildings and water bodies on a Raster image**
-
+ 
 **Overview**
 
 Welcome to the Geospatial Representation project, where we harness the power of geospatial data to create comprehensive representations of road networks, buildings, and water bodies on raster images. Utilizing data from the Resourcesat-1/Resourcesat-2:LISS III Ortho satellite, this project provides a step-by-step guide to download, process, and visualize geospatial information.
