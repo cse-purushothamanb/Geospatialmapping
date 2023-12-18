@@ -1,0 +1,6 @@
+Procedure for representing Road, Buildings and water bodies on a Raster image is as follows:
+
+Step 01: Before starting of the project, lets download tiles in the form of TIFF type. To download the tiles, we need to visit the Bhuvan portal on https://bhuvan.nrsc.gov.in/
+
+Step 02: By clicking on the Bhuvan 2D icon and visiting the Bhuvan Store we can download the tiles of " Resourcesat-1/Resourcesat-2:LISS III Ortho satellite "
+         
