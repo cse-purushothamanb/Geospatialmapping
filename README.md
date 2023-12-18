@@ -1,32 +1,15 @@
 # Project-1
-Representing Road, Buildings and water bodies on a Raster image
+**Representing Road, Buildings and water bodies on a Raster image**
 
-1. Raster:
-In remote sensing, a raster is a grid of cells that represent measurements of the Earth's surface. Each cell in a raster has a value that represents a property of the Earth's surface, such as its elevation, vegetation cover, or land use. Raster data can be acquired from a variety of sources, including satellites, aircraft, and ground-based sensors.
+**Overview**
+Welcome to the Geospatial Representation project, where we harness the power of geospatial data to create comprehensive representations of road networks, buildings, and water bodies on raster images. Utilizing data from the Resourcesat-1/Resourcesat-2:LISS III Ortho satellite, this project provides a step-by-step guide to download, process, and visualize geospatial information.
 
-2.	Raster Image:
-A raster image is a digital image composed of a grid of tiny dots, or pixels, that represent the color of each point in the image. Raster images are the most common type of digital image, and they are used for everything from photographs to computer graphics.
-Each pixel in a raster image has a specific color value, which is determined by the amount of red, green, and blue light that it reflects. The number of bits used to store each pixel value determines the image's color depth. For example, a 24-bit color image uses 8 bits for each of the red, green, and blue color channels, for a total of 24 bits per pixel. This allows for over 16 million possible colors per pixel. Raster images are stored in a variety of file formats, including JPEG, PNG, and TIFF. These file formats use compression algorithms to reduce the file size of the image without significantly reducing its quality. Here we store the raster image in the form of JPEG.
+**Project Highlights**
+Data Source: The project relies on data obtained from the Bhuvan portal, specifically the Resourcesat-1/Resourcesat-2:LISS III Ortho satellite, ensuring high-quality and detailed geospatial information.
 
-3.	The Software:
-ERDAS Imagine 2014 is a remote sensing software developed by Hexagon Geospatial (formerly known as ERDAS). It provides tools and capabilities for processing, analyzing, and visualizing geospatial imagery and raster data.
-Here are some key features and functionalities of ERDAS Imagine 2014:
-  1.	Data Import: ERDAS Imagine supports a wide range of data formats, including satellite imagery, aerial photographs, LiDAR data, digital elevation models (DEMs), and more. It allows you to import and manage various types of raster data for analysis and visualization.
+**Software**: Erdas Imagine 2014 serves as the primary tool for processing and analyzing the geospatial data. Its versatile features enable tasks such as spectral analysis, mosaicking, and representation of various features on raster images.
 
-  2.	Image Processing: The software offers a comprehensive set of image processing tools for enhancing and manipulating raster data. You can perform operations such as radiometric correction, georeferencing, orthorectification, image fusion, mosaicking, filtering, and classification.
-     
-  3.	Spectral Analysis: ERDAS Imagine provides tools for spectral analysis of multispectral and hyperspectral imagery. It allows you to extract and analyze spectral signatures, compute vegetation indices, perform band math operations, and conduct spectral unmixing.
-
-  4.	Geospatial Analysis: The software includes a range of geospatial analysis tools for extracting meaningful information from raster data. You can perform operations like terrain analysis, change detection, feature extraction, suitability modeling, and volumetric calculations.
-
-  5.	Visualization and Presentation: ERDAS Imagine offers powerful visualization capabilities to help you display and interpret your geospatial data effectively. It provides various display modes, layer blending options, color correction, histogram equalization, and 3D visualization tools. You can also create presentation-ready maps and layouts.
-
-  6.	Batch Processing and Automation: The software allows you to automate repetitive tasks and perform batch processing using the ERDAS Modeler. It provides a graphical interface for creating custom processing workflows, which can be saved and reused for efficient data processing.
-
-  7.	Integration with Other Software: ERDAS Imagine supports integration with other software and industry-standard formats. It can import and export data in formats like GeoTIFF, JPEG, ENVI, NetCDF, LAS, and more. It also integrates well with GIS platforms such as ArcGIS and can be used in conjunction with other remote sensing and spatial analysis tools.
-
-
-The images for the procedures is given below:
+**The images for the procedures is given below:**
 
 fig 01: ![image](https://github.com/cse-purushothamanb/Project-1/assets/143436614/4c17d7da-97ce-4fbb-a1a1-ebfceadcc2e0)
 
