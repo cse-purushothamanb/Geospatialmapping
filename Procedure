@@ -3,5 +3,57 @@ Procedure for representing Road, Buildings and water bodies on a Raster image is
 Step 01: Before starting of the project, lets download tiles in the form of TIFF type. To download the tiles, we need to visit the Bhuvan portal on https://bhuvan.nrsc.gov.in/
 
 Step 02: By clicking on the Bhuvan 2D icon and visiting the Bhuvan Store we can download the tiles of " Resourcesat-1/Resourcesat-2:LISS III Ortho satellite "
-         ![image](https://github.com/cse-purushothamanb/Project-1/assets/143436614/4c17d7da-97ce-4fbb-a1a1-ebfceadcc2e0)
-         
+         Refer fig 01 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/4c17d7da-97ce-4fbb-a1a1-ebfceadcc2e0)
+
+Step 03: Downloading tiles by specifying Min Latitude, Min Longitude, Max Latitude and Max Longitude in the Boundary box.
+         The parameters for the Bangalore region are as follows:
+         a.Min Latitude = 12.5
+         b.Min Longitude = 77
+         c.Max Latitude = 13.5
+         d.Max Longitude = 78
+         By clicking the select button, the Bangalore region will be highlighted with a red bordered region of 16 tiles.
+         But, lets download the only 6 tiles which is around the Bangalore region. The view of tiles is shown in the given image below.
+         Refer fig 02 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/84244fe4-be05-49d6-a258-4d9edc21657e)
+
+Step 04: After downloading each tile one by one, lets display the spectral view of each tile using Erdas Imagine 2014 through the following steps:
+         Raster -> Spectral -> Layer Stack -> Select the input file where the TIFF files are available for the first tile and add the files one by one->Select the output file where the spectral image has to be saved with img extension.
+         Spectral image of the first tile:
+         Refer fig 03 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/b7d51326-a9a3-4c9a-bb60-8275d4d44a26)
+
+Step 05: Spectral image of second tile:
+         Refer fig 04 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/80c95b6e-b876-472b-8361-665473038ec4)
+
+Step 06: Spectral image of the third tile:
+         Refer fig 05 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/864804ba-65c0-410f-aab6-f141c06cbc0c)
+
+Step 07: Spectral image of the fourth tile:
+         Refer fig 06 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/a8f54b9e-96a3-4b2a-82ce-5f6ca1313ebf)
+
+Step 08: Spectral image of the fifth tile:
+         Refer fig 07 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/a5ae9856-b50d-4b61-8a2b-011bb495cb58)
+
+Step 09: Spectral image of the sixth tile:
+         Refer fig 08 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/856a6450-e910-4c37-9b3f-68f47dab16ba)
+
+Step 10: After spectral view of all the images we need to mosaic the images for the raster view.
+                  a. Add all the spectral image in the mosaic geometry.
+                    Refer fig 09 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/aab7578b-d144-4045-bbaf-814ad3fb69d0)
+
+                  b. After mosaicking of the spectral images, the Raster view is been displayed:
+                    Refer fig 10 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/6d783dcc-aeb8-49a4-8e06-6c6d6ef1be3a) 
+
+Step 11: We can also view the vector image of the Bangalore region by downloading the shape file from KGis web portal:
+         Refer fig 11 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/7c316436-b1b9-462b-80a3-c0c34092c1ff)
+
+Step 12: The clipped image is shown below:
+         Refer fig 12 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/62e13d93-ab58-455a-8527-88089a14de94)
+
+Step 13: Then by using the polygon attribute we can represent the water body as shown below:
+         Refer fig 13 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/0172a0e3-1e7b-4d05-9f9a-4a7fe1095eb4)
+
+Step 14: The road view is been displayed by using line attribute:
+          Refer fig 14 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/5bcbc18b-f624-450e-b850-826d8113fc75)
+
+Step 15: Finally the Building, Road and water bodies are viewed in the following form:
+          Refer fig 15 in README.md file (https://github.com/cse-purushothamanb/Project-1/assets/143436614/ddfc7207-13e9-4c5e-989f-4cc2b50f4bc9)
+
