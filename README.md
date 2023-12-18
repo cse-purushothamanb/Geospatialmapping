@@ -2,12 +2,16 @@
 **Representing Road, Buildings and water bodies on a Raster image**
 
 **Overview**
+
 Welcome to the Geospatial Representation project, where we harness the power of geospatial data to create comprehensive representations of road networks, buildings, and water bodies on raster images. Utilizing data from the Resourcesat-1/Resourcesat-2:LISS III Ortho satellite, this project provides a step-by-step guide to download, process, and visualize geospatial information.
 
 **Project Highlights**
+
 Data Source: The project relies on data obtained from the Bhuvan portal, specifically the Resourcesat-1/Resourcesat-2:LISS III Ortho satellite, ensuring high-quality and detailed geospatial information.
 
-**Software**: Erdas Imagine 2014 serves as the primary tool for processing and analyzing the geospatial data. Its versatile features enable tasks such as spectral analysis, mosaicking, and representation of various features on raster images.
+**Software**
+
+Erdas Imagine 2014 serves as the primary tool for processing and analyzing the geospatial data. Its versatile features enable tasks such as spectral analysis, mosaicking, and representation of various features on raster images.
 
 **The images for the procedures is given below:**
 
